@@ -1,0 +1,14 @@
+{
+  "name": "skillbridge-jobs-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jose": "^6.2.12"
+  }
+}
